@@ -63,15 +63,15 @@ event:
   # Info Sections
   info:
     sections:
-      - image: "images/image1.png"
+      - image: "./images/telescope.png"
         title: "LEARN."
         description: >
           We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
+      - image: "images/moon.png"
         title: "BUILD."
         description: >
           We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
+      - image: "images/rocket.png"
         title: "SHARE."
         description: >
           We can write something nice with a graphic (as above) to make the event more appealing.

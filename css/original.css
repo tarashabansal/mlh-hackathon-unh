@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #000000;
 }
 
 section {
@@ -49,16 +49,21 @@ section {
  */
 
 .hero {
-  background-color: #F5699C;
+  /* background-color: #000000; */
+  background-image: url("../images/bg1.jpeg");
   min-height: 110vh;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero img {
-  max-width: 400px;
+  max-width: infinity;
 }
 
 .hero hr {
-  border-top: 15px solid #0F2C34;
+  /* border-top: 15px solid #fff; */
   margin: 0;
   position: relative;
   top: -14px;
@@ -69,8 +74,8 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: #fff;
-  background: rgba(255, 255, 255, .3);
+  color: #fff;
+  /* background: #fff; */
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
@@ -81,9 +86,11 @@ section {
 .hero .wrapper h2 {
   font-size: 28px;
   font-weight: 200;
+  color: #fff;
 }
 
 .hero .wrapper h3 {
+  color: #fff;
   font-size: 20px;
   font-weight: 200;
   padding-bottom: 35px;
@@ -95,9 +102,9 @@ section {
 
 .hero .buttons a {
   background: #fff;
-  border: 10px solid #0F2C34;
+  /* border: 10px solid #000000;   */
   border-radius: 40px;
-  color: #0F2C34;
+  color: #000000;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -109,7 +116,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #0F2C34;
+  background-color: #000000;
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -123,14 +130,15 @@ section {
  */
 
 .about {
+  /* background-image: url("../images/bg1.jpeg"); */
   border-width: 15px 0;
-  background-color: #fff;
+  background-color: #000000;
   padding: 130px 0;
   position: relative;
 }
 
 .about p {
-  color: #0F2C34;
+  color: #fff;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -147,10 +155,15 @@ section {
  */
 
 .info {
+  background-image: url("../images/shooting\ stars.gif");
   background-color: #fff;
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info .item {
@@ -158,6 +171,7 @@ section {
 }
 
 .info .item h1 {
+  color: #fff;
   font-family: 'Montserrat';
   font-size: 45px;
   font-weight: 700;
@@ -169,6 +183,7 @@ section {
 }
 
 .info .item p {
+  color: #fff;
   font-size: 20px;
 }
 
@@ -177,7 +192,14 @@ section {
  */
 
 .faq {
-  background-color: #fff;
+  color: #fff;
+  background-image: url("../images/planets.jpeg");
+  height: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background: 110vh;
+  background-color: #000;
+
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
@@ -190,18 +212,21 @@ section {
 }
 
 .faq .question h2 {
+  color: #fff;
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 24px;
 }
 
 .faq .question hr {
-  border-top: 8px solid #0F2C34;
+  color: #fff;
+  border-top: 8px solid #000000;
   margin: 20px 0;
   width: 80px;
 }
 
 .faq .question p {
+  color: #fff;
   font-size: 18px;
   line-height: 1.5em;
 }
@@ -217,7 +242,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #000000;
   color: #fff;
   padding: 30px 0;
 }
