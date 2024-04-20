@@ -22,7 +22,11 @@
 }
 
 body {
-  background-color: #000000;
+  /* background-color: #000000; */
+  /* background-image:  url("../images/fullbg.webp");  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
@@ -48,9 +52,11 @@ section {
  * Hero Section
  */
 
+
+
 .hero {
   /* background-color: #000000; */
-  background-image: url("../images/bg1.jpeg");
+  background-image: url("../images/reach_for_the_stars_resized.png");
   min-height: 110vh;
   height: 100%;
   background-position: center;
@@ -125,6 +131,14 @@ section {
   margin-right: 10px;
 }
 
+
+.planet-body{
+  background-image: url("../images/abe35819-0ee0-4b48-810f-eb1de2144905.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background: ; */
+}
 /* 
  * About Section
  */
@@ -132,7 +146,7 @@ section {
 .about {
   /* background-image: url("../images/bg1.jpeg"); */
   border-width: 15px 0;
-  background-color: #000000;
+  /* background-color: #000000; */
   padding: 130px 0;
   position: relative;
 }
@@ -155,8 +169,8 @@ section {
  */
 
 .info {
-  background-image: url("../images/shooting\ stars.gif");
-  background-color: #fff;
+  /* background-image: url("../images/shooting\ stars.gif"); */
+  /* background-color: #fff; */
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
@@ -193,12 +207,12 @@ section {
 
 .faq {
   color: #fff;
-  background-image: url("../images/planets.jpeg");
+  /* background-image: url("../images/planets.jpeg"); */
   height: 100%;
   background-position: left;
   background-repeat: no-repeat;
   background: 110vh;
-  background-color: #000;
+  /* background-color: #000; */
 
   margin-top: 15px;
   padding: 100px 0;

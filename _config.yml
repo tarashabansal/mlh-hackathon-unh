@@ -5,15 +5,15 @@
 # If you are hosting in a sub-folder, for example: https://mlh.github.io/mlh-hackathon-boilerplate/,
 # you must specify it as the baseurl
 # If you hosting as a root, for example: htttps://[github username].github.io, then leave it blank
-baseurl: "/mlh-hackathon-boilerplate"
+baseurl: ""
 
 # uncomment the next line if you are hosting as a root and not sub-folder
-# for example, when runnig locally at http://127.0.0.1:4000/
+# for example, when running locally at http://127.0.0.1:4000/
 # baseurl: ""
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://tarashabansal.github.io"
+url: ""
 
 # The ability to use custom themes.
 style:
@@ -25,25 +25,24 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: ""
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5-6 August 2022"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
-
+  title:       "Hack New Haven | 9-10 November 2024"
+  description: ""
+  image:       "./images/favicon.png"
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 - 6 August 2022"
-  location:    "Holmdel, NJ, United States"
+  name:        "Hack New Haven"
+  description: "Reach for the Stars"
+  date:        "9-10 November, 2024"
+  location:    "West Haven, CT, United States"
 
-  trust_badge:
-    year:   "2017"  # season year
-    region: "eu"    # "na" or "eu"
-    color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
+  # trust_badge:
+  #   year:   "2017"  # season year
+  #   region: "eu"    # "na" or "eu"
+  #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
@@ -52,13 +51,13 @@ event:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:yejar1@unh.newhaven.edu"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      Welcome to Hack New Haven at the University of New Haven! This is the premier hackathon for the region.
+      Join us for a weekend of innovation and collaboration as we explore the theme of 
+      reaching for new heights in technology and beyond.
 
   # Info Sections
   info:
@@ -66,15 +65,15 @@ event:
       - image: "./images/telescope.png"
         title: "LEARN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Expand your skills, and tackle real-world challenges.
       - image: "images/moon.png"
         title: "BUILD."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Dare to dream, code to innovate with us!
       - image: "images/rocket.png"
         title: "SHARE."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Connect with like-minded individuals.
 
   # Frequently asked questions.
   faq:
