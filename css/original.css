@@ -113,7 +113,9 @@ section {
   margin: 40px 0;
 }
 
-.hero .buttons a {
+.hero .buttons a,
+.hero .buttons button,
+.hero .buttons input[type="email"] {
   background: #fff;
   /* border: 10px solid #000000;   */
   border-radius: 40px;
@@ -128,7 +130,9 @@ section {
 }
 
 .hero .buttons a:hover,
-.hero .buttons a:focus {
+.hero .buttons a:focus,
+.hero .buttons button:hover,
+.hero .buttons button:focus {
   background-color: #000000;
   color: #fff;
   transition: all 0.2s ease;
