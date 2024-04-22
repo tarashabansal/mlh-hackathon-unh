@@ -30,7 +30,7 @@ body {
 }
 
 section {
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 /*
@@ -64,6 +64,10 @@ section {
   background-size: cover;
 }
 
+.black-background {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .hero img {
   max-width: infinity;
 }
@@ -87,6 +91,7 @@ section {
   font-weight: 800;
   letter-spacing: -2px;
   padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero .wrapper h2 {
@@ -132,13 +137,14 @@ section {
 }
 
 
-.planet-body{
+.planet-body {
   background-image: url("../images/abe35819-0ee0-4b48-810f-eb1de2144905.webp");
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   /* background: ; */
 }
+
 /* 
  * About Section
  */
@@ -213,6 +219,7 @@ section {
   background-repeat: no-repeat;
   background: 110vh;
   /* background-color: #000; */
+  background-color: rgba(0, 0, 0, 0.5);
 
   margin-top: 15px;
   padding: 100px 0;
