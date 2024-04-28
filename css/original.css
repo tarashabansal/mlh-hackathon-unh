@@ -97,7 +97,7 @@ section {
 
 .hero .wrapper h2 {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 500;
   color: #fff;
   padding: 10px;
 }
@@ -114,8 +114,7 @@ section {
 }
 
 .hero .buttons a,
-.hero .buttons button,
-.hero .buttons input[type="email"] {
+.hero .buttons button {
   background: #fff;
   /* border: 10px solid #000000;   */
   border-radius: 40px;
@@ -125,6 +124,18 @@ section {
   font-size: 24px;
   font-weight: 700;
   padding: 10px 70px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero .buttons input[type="email"]{
+  background: #fff;
+  border-radius: 40px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 7px 50px;
   text-decoration: none;
   text-transform: uppercase;
 }
