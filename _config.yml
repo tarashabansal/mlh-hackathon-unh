@@ -46,9 +46,9 @@ event:
 
   hero:
     links:
-      - text: "Submit"
+      - text: "Subscribe"
         my_mlh:
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+          redirect_uri: "https://forms.gle/GWztNyPwKqupgw1y9"
       - text: "Sponsor"
         href: "mailto:yejar1@unh.newhaven.edu"
 
