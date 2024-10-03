@@ -1,19 +1,28 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+  <!DOCTYPE html>
+  <html>
+    {% include head.html %}
 
-  <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+    <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
 
-    {{ content }}
+      {{ content }}
 
-    <!-- <section class="footer">
-      <div class="container text-center">
-        <h1>{{ site.event.name }}</h1>
-      </div>
-    </section> -->
+      <section class="footer">
+        <div class="container text-center">
+          <h3>{{ site.event.footer.header_text }}</h3>
+          <div class="buttons text-center">
+            {% for link in site.event.footer.links %}
+              {% if link.href %}
+                <a href="{{ link.href }}"><i class="{{link.text}}"  style="font-size:36px;"></i></a>
+              {% elsif link.my_mlh %}
+                <a class="apply" href="{{link.my_mlh.redirect_uri}}"><i class="{{link.text}}" style="font-size:36px;"></i></a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
 
-    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+      <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
-    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
-  </body>
-</html>
+      {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+    </body>
+  </html>
