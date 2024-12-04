@@ -29,14 +29,14 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Hack New Haven | 22 - 23 April 2025"
+  title:       "Hack New Haven | 22 - 23 March 2025"
   description: ""
   image:       "./images/favicon.png"
 # Event information.
 event:
   name:        "Hack New Haven"
   description: "Reach for the Stars"
-  date:        "22 - 23 April 2025"
+  date:        "22 - 23 March 2025"
   location:    "West Haven, CT, United States"
 
   trust_badge:
